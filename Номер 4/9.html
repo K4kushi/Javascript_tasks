@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+<script>
+// Результат -1 или 0 = -1
+    if (-1 || 0) alert( 'first' );  // Выполнится
+
+// -1 и 0 = 0 
+    if (-1 && 0) alert( 'second' );// Не выполнится
+
+// null или -1 или 1
+    if (null || -1 && 1) alert( 'third' );// Выполнится
+</script>
+    </body>
+</html>
